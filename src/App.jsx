@@ -34,7 +34,7 @@ const App = () => {
       <div className="px-2">
         <Routes>
           {/* the different paths that can be taken  */}
-          <Route index element={<HomePage />}></Route>
+          <Route path="/" element={<HomePage />}></Route>
           <Route path="/create" element={<CreatePage />}></Route>
           <Route path="/edit/:id" element={<EditPage />}></Route>
         </Routes>
