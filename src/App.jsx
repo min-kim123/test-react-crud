@@ -18,7 +18,7 @@ const App = () => {
               className="px-2 self-center font-bold text-white text-2xl flex gap-2 ml-1"
             >
               <img src={boxlogo} className="w-6 " />
-              <h1 >Inventory</h1>
+              <h1 >Inventory Test</h1>
             </Link>
 
             <Link
